@@ -1,7 +1,8 @@
 'use client'
 import React, { useEffect } from 'react'
 import AOS, { init } from 'aos'
-import 'aot/dist/aos.css'
+import 'aos/dist/aos.css'
+import Hero from './Hero/Hero'
 
 const Home = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const Home = () => {
 
   return (
     <div>
-      
+      <Hero />
     </div>
   )
 }
