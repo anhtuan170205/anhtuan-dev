@@ -2,7 +2,7 @@
 
 import React from 'react'
 import SkillCard from './SkillCard'
-import { skillsData } from '@/constant/skills'
+import { skillsData } from '@/constant/skillsData'
 
 const Skills = () => {
   return (

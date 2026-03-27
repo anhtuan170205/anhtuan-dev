@@ -1,6 +1,5 @@
 import React from 'react'
 import EducationCard from './EducationCard'
-import { FaGraduationCap } from 'react-icons/fa'
 
 const Education = () => {
   return (
@@ -14,7 +13,7 @@ const Education = () => {
 						name="Ho Chi Minh University of Technology - HCMUT"
 						major="Computer Science"
 						title="Bachelor"
-						logo="/hcmut-logo.png"
+						logo="/logos/hcmut-logo.png"
 						date="Sep 2023 - present"
 						gpa="3.1/4.0"
 					/>
@@ -22,7 +21,7 @@ const Education = () => {
 						name="OTH Regensburg"
 						major="Technical Computer Science"
 						title="Exchange Student"
-						logo="/oth-logo.jpg"
+						logo="/logos/oth-logo.jpg"
 						date="Sep 2025 - Feb 2026"
 						gpa="2.3/1.0"
 					/>

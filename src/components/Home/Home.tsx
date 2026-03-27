@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 import Hero from './Hero/Hero'
 import Education from './Education/Education'
 import Skills from './Skills/Skills'
+import Projects from './Projects/Projects'
 
 const Home = () => {
   useEffect(() => {
@@ -32,6 +33,10 @@ const Home = () => {
 
 			<section id='projects' className='scroll-mt-24'>
 				<Skills />
+			</section>
+
+			<section id='projects' className='scroll-mt-24'>
+				<Projects />
 			</section>
 		</div>
   )
