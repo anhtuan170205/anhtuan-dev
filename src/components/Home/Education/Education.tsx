@@ -8,7 +8,7 @@ const Education = () => {
 			{/* Education Card */}
 			<div>
 				<h1 className='text-3xl sm:text-4xl font-bold text-black'>Education</h1>
-				<div className='mt-10' data-aos='zoom-in' data-aos-anchor-placement='top-center'>
+				<div className='mt-10'>
 					<EducationCard 
 						name="Ho Chi Minh University of Technology - HCMUT"
 						major="Computer Science"

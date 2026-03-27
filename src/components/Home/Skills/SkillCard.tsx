@@ -1,10 +1,11 @@
 'use client'
 import React from 'react'
+import { IconType } from 'react-icons'
 import Tilt from 'react-parallax-tilt'
 
 type Props = {
 	name: string,
-	Icon: any
+	Icon: IconType
 }
 
 const SkillCard = ({ name, Icon }: Props) => {
