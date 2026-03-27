@@ -13,13 +13,13 @@ export const NAV_LINKS = [
 	},
 	{
 		id: 3,
-		url: '#projects',
-		label: 'Projects'
+		url: '#skills',
+		label: 'Skills'
 	},
 	{
 		id: 4,
-		url: '#skills',
-		label: 'Skills'
+		url: '#projects',
+		label: 'Projects'
 	},
 	{
 		id: 5,

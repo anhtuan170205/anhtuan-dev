@@ -13,7 +13,7 @@ type Props = {
 
 const ProjectCard = ({ image, title, description, techStack, highlights, repo, demo }: Props) => {
   return (
-	<div className='bg-gray-100 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 h-full flex flex-col'>
+	<div className='bg-black/10 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 h-full flex flex-col'>
 		{/* Imamge */}
 		<div className='relative w-full h-48'>
 			<Image 
@@ -30,12 +30,12 @@ const ProjectCard = ({ image, title, description, techStack, highlights, repo, d
 			<h3 className='text-xl font-semibold text-black mt-2 line-clamp-3'>{title}</h3>
 
 			{/* Description */}
-			<p className='text-gray-600 text-sm mt-2 h-12 overflow-hidden text-justify'>{description}</p>
+			<p className='text-gray-600 text-sm mt-2 h-1 overflow-hidden text-justify'>{description}</p>
 
 			{/* Tech Stack */}
 			<div className='flex flex-wrap gap-2 mt-4'>
 				{techStack.map((tech) => (
-					<span key={tech} className='px-3 py-1 text-xs bg-gray-200 rounded-full'>
+					<span key={tech} className='px-3 py-1 text-xs bg-black/10 rounded-full'>
 						{tech}
 					</span>
 				))}

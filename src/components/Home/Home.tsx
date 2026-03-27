@@ -6,6 +6,7 @@ import Hero from './Hero/Hero'
 import Education from './Education/Education'
 import Skills from './Skills/Skills'
 import Projects from './Projects/Projects'
+import Contact from './Contact/Contact'
 
 const Home = () => {
   useEffect(() => {
@@ -31,12 +32,16 @@ const Home = () => {
 				<Education />
 			</section>
 
-			<section id='projects' className='scroll-mt-24'>
+			<section id='skills' className='scroll-mt-24'>
 				<Skills />
 			</section>
 
 			<section id='projects' className='scroll-mt-24'>
 				<Projects />
+			</section>
+
+			<section id='contact' className='scroll-mt-24'>
+				<Contact />
 			</section>
 		</div>
   )

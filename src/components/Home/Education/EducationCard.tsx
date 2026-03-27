@@ -13,7 +13,7 @@ type Props = {
 const EducationCard = ({name, major, title, logo, date, gpa}: Props) => {
   return (
 	<div className='mb-6 w-full'>
-		<div className='w-full flex items-start space-x-6 bg-black/10 transition-all duration-300 p-4 sm:p-8 rounded-md'>
+		<div className='w-full flex items-start space-x-6 bg-black/20 transition-all duration-300 p-4 sm:p-8 rounded-md'>
 			<div className='sm:w-14 sm:h-14 w-10 h-10 bg-white rounded-full flex items-center justify-center flex-col'>
 				<Image 
 					src={logo}

@@ -43,10 +43,10 @@ const Hero = () => {
         <button
           data-aos='fade-up'
           data-aos-delay='600'
-          className='mt-6 px-10 py-4 bg-black text-white hover:bg-gray-800 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium'
+          className='mt-6 px-10 py-4 bg-black text-white hover:bg-gray-600 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium'
         >
           <span onClick={() => document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' })}>
-            View My Work
+            Start here
           </span>
           <BsArrowRight className='w-5 h-5 ml-2 inline-block' />
         </button>
