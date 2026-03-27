@@ -3,13 +3,13 @@ export const projectsData = [
 		image: '/projects/backtothrone.png',
 		title: 'Back To Throne',
 		description:
-		'3D endless runner game built in Unity with modular architecture.',
+			'3D endless runner game built in Unity with modular architecture.',
 		techStack: ['Unity', 'C#'],
 		highlights: [
-		'Finite state machine for player behavior',
-		'Event-driven system for decoupled architecture',
-		'Object pooling for performance optimization',
-		'ScriptableObject-based stat system',
+			'Finite state machine for player behavior',
+			'Event-driven system for decoupled architecture',
+			'Object pooling for performance optimization',
+			'ScriptableObject-based stat system',
 		],
 		repo: 'https://github.com/anhtuan170205/BackToThrone.git',
 		demo: 'https://youtu.be/fKqodS0EmkA',

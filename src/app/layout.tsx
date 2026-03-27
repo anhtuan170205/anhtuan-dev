@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Martian_Mono } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import Footer from "@/components/Footer/Footer";
+import ScrollToTop from "@/components/Helper/ScrollToTop";
 
 const font = Martian_Mono({
   subsets: ['latin'],
@@ -24,6 +26,8 @@ export default function RootLayout({
         className={`${font.className} antialiased bg-white}` }>
           <ResponsiveNav />
         {children}
+        <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
