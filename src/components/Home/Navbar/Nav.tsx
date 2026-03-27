@@ -1,5 +1,5 @@
 'use client'
-import { NAV_LINKS } from '@/constant/constant'
+import { NAV_LINKS } from '@/constant/navlinks'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { FaCode } from 'react-icons/fa'
