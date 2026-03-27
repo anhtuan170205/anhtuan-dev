@@ -26,7 +26,7 @@ const Hero = () => {
           data-aos-delay='400'
           className='mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center flex-wrap justify-center'
         >
-          Hi! I&apos;m Anh Tuan - A Passionate
+          Hi! I&apos;m <span className='ml-2 text-black font-bold'>  Anh Tuan</span> - A Passionate
           <span className='text-gray-400 font-bold ml-2'>
             <Typewriter
               options={{

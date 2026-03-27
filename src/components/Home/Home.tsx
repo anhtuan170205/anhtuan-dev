@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import AOS, { init } from 'aos'
 import 'aos/dist/aos.css'
 import Hero from './Hero/Hero'
+import Education from './Education/Education'
 
 const Home = () => {
   useEffect(() => {
@@ -19,9 +20,15 @@ const Home = () => {
 }, [])
 
   return (
-    <div>
-      <Hero />
-    </div>
+    	<div>
+			<section id='home' className='scroll-mt-24'>
+				<Hero />
+			</section>
+
+			<section id='education' className='scroll-mt-24'>
+				<Education />
+			</section>
+		</div>
   )
 }
 
