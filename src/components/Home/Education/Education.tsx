@@ -10,9 +10,9 @@ const Education = () => {
 				<h1 className='text-3xl sm:text-4xl font-bold text-black'>Education</h1>
 				<div className='mt-10'>
 					<EducationCard 
-						name="Ho Chi Minh University of Technology - HCMUT"
+						name="HCM City University of Technology - HCMUT"
 						major="Computer Science"
-						title="Bachelor"
+						title="Bachelor of Engineering"
 						logo="/logos/hcmut-logo.png"
 						date="Sep 2023 - present"
 						gpa="3.1/4.0"

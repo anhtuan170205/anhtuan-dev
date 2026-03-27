@@ -8,8 +8,6 @@ import Projects from './Projects/Projects'
 import Contact from './Contact/Contact'
 
 const Home = () => {
-
-
   return (
     <div>
       <section id='home' className='scroll-mt-24'>

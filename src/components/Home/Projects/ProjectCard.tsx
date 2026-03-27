@@ -14,12 +14,12 @@ type Props = {
 const ProjectCard = ({ image, title, description, techStack, highlights, repo, demo }: Props) => {
   return (
 	<div className='bg-black/10 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 h-full flex flex-col'>
-		{/* Imamge */}
+		{/* Image */}
 		<div className='relative w-full h-48'>
 			<Image 
 				src={image}
 				alt={title}
-				layout='fill'
+				fill
 				className='object-cover'
 			/>
 		</div>

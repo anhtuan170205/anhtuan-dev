@@ -6,10 +6,10 @@ export const projectsData = [
 			'3D endless runner game built in Unity with modular architecture.',
 		techStack: ['Unity', 'C#'],
 		highlights: [
-			'Finite state machine for player behavior',
-			'Event-driven system for decoupled architecture',
-			'Object pooling for performance optimization',
-			'ScriptableObject-based stat system',
+			'Designed a modular game architecture using finite state machines to manage player behavior and transitions',
+			'Built an event-driven system to decouple gameplay, UI, and core managers, improving scalability',
+			'Optimized runtime performance using object pooling, reducing instantiation overhead',
+			'Implemented a data-driven upgrade system using ScriptableObjects for flexible game balancing',
 		],
 		repo: 'https://github.com/anhtuan170205/BackToThrone.git',
 		demo: 'https://youtu.be/fKqodS0EmkA',
@@ -21,9 +21,10 @@ export const projectsData = [
 			'2D platformer game built in Unity with gameplay.',
 		techStack: ['Unity', 'C#'],
 		highlights: [
-			'Built a state-driven game flow to manage menus, gameplay, and transitions.',
-			'Implemented custom UnityEditor inspector tools to streamline development.',
-			'Integrated physics interactions by creating a grappling hook mechanic using Rigidbody dynamics.',
+			'Developed a state-driven game flow handling menu, gameplay, and transitions.',
+			'Implemented a grappling hook mechanic using Rigidbody physics and custom force handling',
+			'Created custom Unity Editor tools to accelerate development workflow',
+			'Integrated physics-based interactions and input system for responsive gameplay'
 		],
 		repo: 'https://github.com/anhtuan170205/DumbJumper.git',
 		demo: 'https://youtu.be/3K3GBHd4Yb4',

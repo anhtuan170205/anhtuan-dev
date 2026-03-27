@@ -43,6 +43,18 @@ const Skills = () => {
 				</div>
 			</div>
 
+			{/* AI Tools */}
+			<div className='mt-14'>
+				<h2 className='text-xl font-semibold mb-6 text-black'>AI Tools</h2>
+				<div className='flex flex-wrap gap-6'>
+					{skillsData.aitools.map((tool) => (
+						<span key={tool} className='px-4 py-2 bg-black/20 rounded-full text-sm'>
+							{tool}
+						</span>
+					))}
+				</div>
+			</div>
+
 			{/* Languages */}
 			<div className='mt-14'>
 				<h2 className='text-xl font-semibold mb-6 text-black'>Languages</h2>
